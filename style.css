@@ -1,0 +1,49 @@
+*{ 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+#logo{
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+}
+li{
+    list-style: none; 
+    font-weight: 300;   
+}
+main{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 10rem;
+    gap: 2rem; 
+}
+h1{
+    font-size: 3rem;
+}
+img{
+    min-width: 300px;
+    max-height: 400px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 10rem;
+    gap: 2rem; 
+}
